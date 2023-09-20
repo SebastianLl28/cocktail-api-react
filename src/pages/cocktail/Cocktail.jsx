@@ -1,7 +1,11 @@
+import { useParams } from "react-router-dom";
+
 const Cocktail = () => {
+  const { id } = useParams();
+
   return (
     <div>
-      <p>this is a cocktail page</p>
+      <p>{id}</p>
     </div>
   );
 };

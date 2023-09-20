@@ -8,6 +8,7 @@ const UseFilterContext = ({ children }) => {
   const [filter, setFilter] = useState({
     category: "Ordinary Drink",
     name: "",
+    page: 1,
   });
 
   return (
